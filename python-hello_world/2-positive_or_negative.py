@@ -1,7 +1,9 @@
-num = float(input("Enter a number: "))
-if num > 0:
-   print("Positive number")
+#!/usr/bin/python3
+import random
+number = random.randint(-10, 10)
+if number > 0:
+   print("{} is Positive" .format(number))
 elif num == 0:
-   print("Zero")
+   print("{} is zero" .format(number))
 else:
-   print("Negative number")
+   print("{} is negative" .format(number))
